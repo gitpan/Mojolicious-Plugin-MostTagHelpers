@@ -5,6 +5,7 @@ WriteMakefile
   'NAME' => 'Mojolicious::Plugin::MostTagHelpers',
   'VERSION_FROM' => 'lib/Mojolicious/Plugin/MostTagHelpers.pm',
   'PREREQ_PM' => {
+                   'HTML::Tagset' => '3.2',
                    'Test::More' => 0
                  },
   'INSTALLDIRS' => 'site',

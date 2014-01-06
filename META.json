@@ -1,5 +1,5 @@
 {
-   "abstract" : "More tag helpers for your slides",
+   "abstract" : "More tag helpers for your templated and slides",
    "author" : [
       "Holger Rupprecht <holger.rupprecht@gmx.de>"
    ],
@@ -23,12 +23,17 @@
          "requires" : {
             "Module::Build" : "0"
          }
+      },
+      "runtime" : {
+         "requires" : {
+            "HTML::Tagset" : "3.2"
+         }
       }
    },
    "provides" : {
       "Mojolicious::Plugin::MostTagHelpers" : {
          "file" : "lib/Mojolicious/Plugin/MostTagHelpers.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -37,5 +42,5 @@
          "http://www.perlfoundation.org/artistic_license_2_0"
       ]
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
